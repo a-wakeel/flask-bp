@@ -41,14 +41,36 @@ def create_app():
     # setup database uri
     # i used postgres as example database however any database can be used which is supported be sqlalchemy
     app_.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://%s:%s@%s:%s/%s' % \
-                                            (database_user, database_password, database_host,
-                                             database_port, database_name)
+                                             (database_user, database_password, database_host,
+                                              database_port, database_name)
     # to suppress the track modification overhead warning and set it off
     app_.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     return app_
 
 
 app = create_app()
+
+
+@app.after_request
+def add_no_cache(response):
+    """Make sure no API responses are cached by setting headers on the response."""
+    response.cache_control.no_cache = True
+    response.cache_control.no_store = True
+    response.cache_control.must_revalidate = True
+    response.cache_control.max_age = 0
+    response.headers['Pragma'] = 'no-cache'
+    response.expires = 0
+    return response
+
+
+@app.after_request
+def add_security_headers(response):
+    """Makes sure appropriate security headers are added for each API."""
+    response.headers['X-Frame-Options'] = 'DENY'
+    response.headers['X-Content-Type-Options'] = 'nosniff'
+    return response
+
+
 db = SQLAlchemy(session_options={'autocommit': False})
 db.init_app(app)
 # import all the defined routes here
