@@ -119,4 +119,4 @@ make test
 9. [Flask Migrate 2.3.0](https://github.com/miguelgrinberg/Flask-Migrate)
 10. [apispec 0.39.0](https://github.com/marshmallow-code/apispec)
 11. [flask-apispec 0.7.0](https://github.com/jmcarp/flask-apispec)
-12. [testing.postgresql]()
+12. [testing.postgresql](https://github.com/tk0miya/testing.postgresql)
