@@ -3,7 +3,7 @@ flask-restful==0.3.7
 flask_cors==3.0.7
 marshmallow==2.19.0
 flask-sqlalchemy==2.3.2
-PyYAML==3.13
+PyYAML==5.1
 flask_script==2.0.6
 flask_migrate==2.4.0
 apispec==0.39.0
