@@ -5,7 +5,7 @@ marshmallow==2.19.0
 flask-sqlalchemy==2.3.2
 PyYAML==3.13
 flask_script==2.0.6
-flask_migrate==2.3.0
+flask_migrate==2.4.0
 apispec==0.39.0
 flask_apispec==0.7.0
 pytest==4.3.1
