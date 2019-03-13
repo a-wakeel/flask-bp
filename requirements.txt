@@ -1,6 +1,6 @@
 flask==1.0.2
 flask-restful==0.3.7
-flask_cors==3.0.6
+flask_cors==3.0.7
 marshmallow==2.19.0
 flask-sqlalchemy==2.3.2
 PyYAML==3.13
