@@ -57,6 +57,30 @@ OR
 flask run -h 0.0.0.0
 ```
 
+## Setup Using Docker
+Make sure you have installed docker and docker-compose.
+
+- Create a `flaskbp` user with UID 9001 and change the ownership of the repo:
+```bash
+    sudo useradd -u 9001 -m -d /home/flaskbp -s /bin/bash flaskbp
+    sudo chown -R 9001:9001 flask-bp
+```
+
+- Build Postgres Image using:
+```bash
+    make -f docker/postgres/Makefile
+```
+
+- Build the dev server image using:
+```bash
+    make -f docker/dev/Makefile
+```
+
+- After the build process completes, launch dev environment using:
+```bash
+    docker-compose -f docker/dev/devenv-with-local-db.yml run --rm --service-ports dev-shell
+```
+
 ### Accessing flask-bp resources
 To access the api server, you can access it on:
 ```bash
