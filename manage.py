@@ -1,7 +1,7 @@
 """
 flask-bp module to manage database migrations.
 """
-from flask_script import Manager
+from flask_script import Manager  # pylint: disable=W0402
 from flask_migrate import Migrate, MigrateCommand
 
 from app import app, db

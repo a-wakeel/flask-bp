@@ -86,7 +86,6 @@ enable =
 	test-inherits-tests,
 	translation-of-non-string,
 	redefined-variable-type,
-	cyclical-import,
 	unreachable,
 	dangerous-default-value,
 	pointless-statement,
@@ -217,6 +216,7 @@ disable =
 	# These should be left to the discretion of the reviewer
 	bad-continuation,
 	invalid-name,
+	cyclical-import,
 	misplaced-comparison-constant,
 	file-ignored,
 	no-member,
