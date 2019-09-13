@@ -118,7 +118,7 @@ make upgrade-db
 ### Others
 To clean project
 ```bash
-make clean
+   make clean
 ```
 
 To clean .pyc files
