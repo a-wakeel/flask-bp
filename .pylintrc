@@ -215,6 +215,7 @@ enable =
 disable =
 	# These should be left to the discretion of the reviewer
 	bad-continuation,
+	cyclic-import,
 	invalid-name,
 	cyclical-import,
 	misplaced-comparison-constant,
