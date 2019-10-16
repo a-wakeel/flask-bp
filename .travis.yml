@@ -6,8 +6,9 @@ python:
   - 3.5
 
 install:
-  - pip install -r requirements.txt
+  - pip install poetry
   - pip install codecov
+  - poetry install
 
 script:
   - make test
