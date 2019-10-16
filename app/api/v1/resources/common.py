@@ -18,7 +18,7 @@ class BaseRoutes(MethodResource):
         # your code here
         return Response(json.dumps(CommonResponse().dump({'message': 'flask-bp API Version 1.0',
                                                           'method': 'GET',
-                                                          'route_path': 'api/v1/'}).data),
+                                                          'route_path': 'api/v1/'})),
                         status=200, mimetype='application/json')
 
     # noinspection PyMethodMayBeStatic
