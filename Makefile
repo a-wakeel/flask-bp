@@ -14,22 +14,22 @@ clean-pyc:
 	find . -name *pyc | grep __pycache__ | xargs rm -rf
 
 start-dev:
-	pip3 install -r requirements.txt
-	flask run -h 0.0.0.0 -p 5000
+	poetry install
+	poetry run flask run -h 0.0.0.0 -p 5000
 
 install-db:
-	python3 manage.py db init
-	python3 manage.py db migrate
-	python3 manage.py db upgrade
+	poetry run python3 manage.py db init
+	poetry run python3 manage.py db migrate
+	poetry run python3 manage.py db upgrade
 
 upgrade-db:
-	python3 manage.py db migrate
-	python3 manage.py db upgrade
+	poetry run python3 manage.py db migrate
+	poetry run python3 manage.py db upgrade
 
 test:
-	pip3 install pytest==3.9.2
-	py.test --verbose
+	poetry install
+	poetry run py.test --verbose
 
 lint:
-	pip3 install pylint
-	pylint --verbose app/* tests/* manage.py
+	poetry install
+	poetry run pylint --verbose app/* tests/* manage.py

@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "flask-bp"
+version = "0.2.0"
+description = "A comprehensive boilerplate for flask projects"
+authors = ["Abdul Wakeel <awkhan978@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+flask = "=1.1.1"
+flask-restful = "=0.3.7"
+flask_cors = "=3.0.8"
+marshmallow = "=3.2.1"
+flask-sqlalchemy = "=2.4.1"
+PyYAML = "=5.1.2"
+flask_script = "=2.0.6"
+flask_migrate = "=2.5.2"
+apispec = "=3.0.0"
+flask_apispec = "=0.8.3"
+psycopg2 = "^2.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "=5.2.1"
+"testing.postgresql" = "^1.3"
+coverage = "=4.5.4"
+pytest-mock = "=1.11.1"
+pytest-cov = "=2.8.1"
+pylint = "^2.4"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
