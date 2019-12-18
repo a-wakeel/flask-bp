@@ -26,7 +26,7 @@ description = "A pluggable API specification generator. Currently supports the O
 name = "apispec"
 optional = false
 python-versions = ">=3.5"
-version = "3.1.0"
+version = "3.1.1"
 
 [[package]]
 category = "dev"
@@ -526,13 +526,13 @@ version = "0.6.0"
 more-itertools = "*"
 
 [metadata]
-content-hash = "4c0c55bab727a755a2bcf7c63f12961b359ecc4f793c67419a7877b7d34bae02"
+content-hash = "c3b7d1d2578f99b444c2ee260f7697a8427f86072ec75b4d4578af7fe600b69b"
 python-versions = "^3.7"
 
 [metadata.hashes]
 alembic = ["9f907d7e8b286a1cfb22db9084f9ce4fde7ad7956bb496dc7c952e10ac90e36a"]
 aniso8601 = ["529dcb1f5f26ee0df6c0a1ee84b7b27197c3c50fc3a6321d66c544689237d072", "c033f63d028b9a58e3ab0c2c7d0532ab4bfa7452bfc788fbfe3ddabd327b181a"]
-apispec = ["cf8e1f3b56949710f8cf23797b7f40215e9dae8bac583789a3f2c13dc56349fa", "fe5cf5fc89b1c4a73acd5af3a10ede02b31ec116f215ed02271cb905d3172367"]
+apispec = ["1f62f28a7ad06b89c892f65117cafee7f6a04d5f554f7e196aa35513a08cf21a", "24b8490c22310b0779a058ccb24ec2fef33d571bb5aba1f525ab5963b0eabcdd"]
 astroid = ["98c665ad84d10b18318c5ab7c3d203fe11714cbad2a4aef4f44651f415392754", "b7546ffdedbf7abcfbff93cd1de9e9980b1ef744852689decc5aeada324238c6"]
 atomicwrites = ["03472c30eb2c5d1ba9227e4c2ca66ab8287fbfbbda3888aa93dc2e28fc6811b4", "75a9445bac02d8d058d5e1fe689654ba5a6556a1dfd8ce6ec55a0ed79866cfa6"]
 attrs = ["08a96c641c3a74e44eb59afb61a24f2cb9f4d7188748e76ba4bb5edfa3cb7d1c", "f7b7ce16570fe9965acd6d30101a28f62fb4a7f9e926b3bbc9b61f8b04247e72"]
