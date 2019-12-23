@@ -15,7 +15,7 @@ flask-sqlalchemy = "=2.4.1"
 PyYAML = "=5.2"
 flask_script = "=2.0.6"
 flask_migrate = "=2.5.2"
-apispec = "=3.1.1"
+apispec = "=3.2.0"
 flask_apispec = "=0.8.4"
 psycopg2 = "^2.8"
 
