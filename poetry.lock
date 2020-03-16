@@ -137,7 +137,7 @@ description = "SQLAlchemy database migrations for Flask applications using Alemb
 name = "flask-migrate"
 optional = false
 python-versions = "*"
-version = "2.5.2"
+version = "2.5.3"
 
 [package.dependencies]
 Flask = ">=0.9"
@@ -526,7 +526,7 @@ version = "0.6.0"
 more-itertools = "*"
 
 [metadata]
-content-hash = "73f238435186f16211637c85a608c3ba4423f25a0ae57affaeb997f56f33c738"
+content-hash = "c14ddbd7a99c071e7383da87796593d824b0dfa9e6a4e69532a38d058d962c5c"
 python-versions = "^3.7"
 
 [metadata.hashes]
@@ -542,7 +542,7 @@ coverage = ["15cf13a6896048d6d947bf7d222f36e4809ab926894beb748fc9caa14605d9c3", 
 flask = ["13f9f196f330c7c2c5d7a5cf91af894110ca0215ac051b5844701f2bfd934d52", "45eb5a6fd193d6cf7e0cf5d8a5b31f83d5faae0293695626f539a823e93b13f6"]
 flask-apispec = ["1105cf07d5be9e25d27b9dc09dee4ddb33cc168624c9b588305a743f3a476158", "f27c8f17d3df7eb9e2fb2f3ab12b67e3e51cb18fbd0fb15218cfc99e37bb62f1"]
 flask-cors = ["72170423eb4612f0847318afff8c247b38bd516b7737adfc10d1c2cdbb382d16", "f4d97201660e6bbcff2d89d082b5b6d31abee04b1b3003ee073a6fd25ad1d69a"]
-flask-migrate = ["6fb038be63d4c60727d5dfa5f581a6189af5b4e2925bc378697b4f0a40cfb4e1", "a96ff1875a49a40bd3e8ac04fce73fdb0870b9211e6168608cbafa4eb839d502"]
+flask-migrate = ["4dc4a5cce8cbbb06b8dc963fd86cf8136bd7d875aabe2d840302ea739b243732", "a69d508c2e09d289f6e55a417b3b8c7bfe70e640f53d2d9deb0d056a384f37ee"]
 flask-restful = ["5ea9a5991abf2cb69b4aac19793faac6c032300505b325687d7c305ffaa76915", "d891118b951921f1cec80cabb4db98ea6058a35e6404788f9e70d5b243813ec2"]
 flask-script = ["6425963d91054cfcc185807141c7314a9c5ad46325911bd24dcb489bd0161c65"]
 flask-sqlalchemy = ["0078d8663330dc05a74bc72b3b6ddc441b9a744e2f56fe60af1a5bfc81334327", "6974785d913666587949f7c2946f7001e4fa2cb2d19f4e69ead02e4b8f50b33d"]
