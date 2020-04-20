@@ -6,7 +6,7 @@ import pytest
 from testing.postgresql import Postgresql
 
 
-# pylint: disable=redefined-outer-name
+# pylint: disable=redefined-outer-name, import-outside-toplevel
 
 @pytest.yield_fixture(scope='session')
 def app():
