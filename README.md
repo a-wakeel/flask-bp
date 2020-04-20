@@ -1,5 +1,6 @@
 [![codecov](https://codecov.io/gh/a-wakeel/flask-bp/branch/master/graph/badge.svg)](https://codecov.io/gh/a-wakeel/flask-bp)
 [![Build Status](https://travis-ci.com/a-wakeel/flask-bp.svg?branch=master)](https://travis-ci.com/a-wakeel/flask-bp)
+![flask-bp](https://github.com/a-wakeel/flask-bp/workflows/flask-bp/badge.svg)
 
 ![header](/etc/images/header.png)
 
