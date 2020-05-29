@@ -129,7 +129,7 @@ description = "Build and document REST APIs with Flask and apispec"
 name = "flask-apispec"
 optional = false
 python-versions = "*"
-version = "0.8.8"
+version = "0.9.0"
 
 [package.dependencies]
 apispec = ">=1.0.0"
@@ -626,7 +626,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["pathlib2", "contextlib2", "unittest2"]
 
 [metadata]
-content-hash = "5851a2c565c8b6d80a9ce40616a5029f72127f272ab16322db11109b8142a08b"
+content-hash = "7bf8fff8f3f79baa9e0f0841c6885f21ffa07339590fefc6a894224bd7c6afbf"
 python-versions = "^3.7"
 
 [metadata.files]
@@ -699,8 +699,8 @@ flask = [
     {file = "Flask-1.1.2.tar.gz", hash = "sha256:4efa1ae2d7c9865af48986de8aeb8504bf32c7f3d6fdc9353d34b21f4b127060"},
 ]
 flask-apispec = [
-    {file = "flask-apispec-0.8.8.tar.gz", hash = "sha256:af6354efe26266f46cbf588635e6d3bcbdf82615799edd7023cedd4ddb6ea262"},
-    {file = "flask_apispec-0.8.8-py2.py3-none-any.whl", hash = "sha256:eb1edf0d80ef38d222256b38a0a1fdf87f3b7e130c9d51f6233b9d32b40063db"},
+    {file = "flask-apispec-0.9.0.tar.gz", hash = "sha256:64c3f528dbf3e78ca7f3d6c695a1e8b788a87f0f4f4ce5c19070649a8f807856"},
+    {file = "flask_apispec-0.9.0-py2.py3-none-any.whl", hash = "sha256:c694f067b076828816b8c778e6928263fdc12b9ed1d2de4e781d21b2dd13aa5a"},
 ]
 flask-cors = [
     {file = "Flask-Cors-3.0.8.tar.gz", hash = "sha256:72170423eb4612f0847318afff8c247b38bd516b7737adfc10d1c2cdbb382d16"},
