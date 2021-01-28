@@ -25,14 +25,14 @@ category = "main"
 description = "A pluggable API specification generator. Currently supports the OpenAPI Specification (f.k.a. the Swagger specification)."
 name = "apispec"
 optional = false
-python-versions = ">=3.5"
-version = "3.3.2"
+python-versions = ">=3.6"
+version = "4.0.0"
 
 [package.extras]
-dev = ["PyYAML (>=3.10)", "prance (>=0.11)", "marshmallow (>=2.19.2)", "pytest", "mock", "flake8 (3.8.3)", "flake8-bugbear (20.1.4)", "pre-commit (>=2.4,<3.0)", "tox"]
-docs = ["marshmallow (>=2.19.2)", "pyyaml (5.3.1)", "sphinx (3.2.1)", "sphinx-issues (1.2.0)", "sphinx-rtd-theme (0.5.0)"]
+dev = ["PyYAML (>=3.10)", "prance (>=0.11)", "marshmallow (>=3.0.0)", "pytest", "mock", "flake8 (3.8.3)", "flake8-bugbear (20.1.4)", "pre-commit (>=2.4,<3.0)", "tox"]
+docs = ["marshmallow (>=3.0.0)", "pyyaml (5.3.1)", "sphinx (3.2.1)", "sphinx-issues (1.2.0)", "sphinx-rtd-theme (0.5.0)"]
 lint = ["flake8 (3.8.3)", "flake8-bugbear (20.1.4)", "pre-commit (>=2.4,<3.0)"]
-tests = ["PyYAML (>=3.10)", "prance (>=0.11)", "marshmallow (>=2.19.2)", "pytest", "mock"]
+tests = ["PyYAML (>=3.10)", "prance (>=0.11)", "marshmallow (>=3.0.0)", "pytest", "mock"]
 validation = ["prance (>=0.11)"]
 yaml = ["PyYAML (>=3.10)"]
 
@@ -623,7 +623,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["pathlib2", "contextlib2", "unittest2"]
 
 [metadata]
-content-hash = "e70b17e982580183dc763bb373915abe9af33380576b04d34e2183313edde4b5"
+content-hash = "e0d99f4c89e02fa3ded85ce7b8fa41cb8b93e0b165fa8117d1a4fbc2f1da5dbc"
 lock-version = "1.0"
 python-versions = "^3.7"
 
@@ -636,8 +636,8 @@ aniso8601 = [
     {file = "aniso8601-8.0.0.tar.gz", hash = "sha256:529dcb1f5f26ee0df6c0a1ee84b7b27197c3c50fc3a6321d66c544689237d072"},
 ]
 apispec = [
-    {file = "apispec-3.3.2-py2.py3-none-any.whl", hash = "sha256:a1df9ec6b2cd0edf45039ef025abd7f0660808fa2edf737d3ba1cf5ef1a4625b"},
-    {file = "apispec-3.3.2.tar.gz", hash = "sha256:d23ebd5b71e541e031b02a19db10b5e6d5ef8452c552833e3e1afc836b40b1ad"},
+    {file = "apispec-4.0.0-py2.py3-none-any.whl", hash = "sha256:20d271f7c8d130719be223fdb122af391ff8d59fb24958c793f632305b87f8ed"},
+    {file = "apispec-4.0.0.tar.gz", hash = "sha256:360e28e5e84a4d7023b16de2b897327fe3da63ddc8e01f9165b9113b7fe1c48a"},
 ]
 astroid = [
     {file = "astroid-2.4.0-py3-none-any.whl", hash = "sha256:2fecea42b20abb1922ed65c7b5be27edfba97211b04b2b6abc6a43549a024ea6"},
