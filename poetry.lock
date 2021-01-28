@@ -120,14 +120,14 @@ dotenv = ["python-dotenv"]
 
 [[package]]
 name = "flask-apispec"
-version = "0.10.0"
+version = "0.11.0"
 description = "Build and document REST APIs with Flask and apispec"
 category = "main"
 optional = false
-python-versions = ">=3.5"
+python-versions = ">=3.6"
 
 [package.dependencies]
-apispec = ">=1.0.0"
+apispec = ">=4.0.0"
 flask = ">=0.10.1"
 marshmallow = ">=3.0.0"
 webargs = ">=6.0.0"
@@ -612,7 +612,7 @@ testing = ["pathlib2", "contextlib2", "unittest2"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "f06365a0828122d046ac7fcc07cb021a8bdab2656adf40a9a3e8b28a21d194e0"
+content-hash = "298eb60065d5b34618fde5fa58b0af37c1981e587b6e2f21635affe12f1b56eb"
 
 [metadata.files]
 alembic = [
@@ -702,8 +702,8 @@ flask = [
     {file = "Flask-1.1.2.tar.gz", hash = "sha256:4efa1ae2d7c9865af48986de8aeb8504bf32c7f3d6fdc9353d34b21f4b127060"},
 ]
 flask-apispec = [
-    {file = "flask-apispec-0.10.0.tar.gz", hash = "sha256:f91fceb66d747978a2992f4e940cbd2379eaa156e8b8eae200791eee7af136be"},
-    {file = "flask_apispec-0.10.0-py2.py3-none-any.whl", hash = "sha256:337f6821db06d9db24f3e8f18fca334f278e55e03dca3cef3c9c492762a5f738"},
+    {file = "flask-apispec-0.11.0.tar.gz", hash = "sha256:89e05dd2cb6e91ad999033c59aed4b5036aea9f0794d5ea5d9082be8ad4a99f2"},
+    {file = "flask_apispec-0.11.0-py2.py3-none-any.whl", hash = "sha256:7e82dabcac4234c1540438daac045e8475804b4dcf7f68898ffc47113ab34da0"},
 ]
 flask-cors = [
     {file = "Flask-Cors-3.0.9.tar.gz", hash = "sha256:6bcfc100288c5d1bcb1dbb854babd59beee622ffd321e444b05f24d6d58466b8"},
