@@ -1,0 +1,34 @@
+# docker-compose file for devenv with local postgres
+version: "2"
+
+services:
+  dev-shell:
+    image: flaskbp-dev:latest
+    container_name: flaskbp_dev
+    volumes:
+      - ../..:/workspace
+    ports:
+      - "127.0.0.1:5000:5000"
+    links:
+      - postgres
+    environment:
+      - PYTHONUNBUFFERED=1
+      - FLASK_DEBUG=1
+      - FLASK_APP=api
+    tmpfs: /tmp
+
+  postgres:
+    image: flaskbp-postgres:latest
+    container_name: flaskbp_db
+    read_only: true
+    environment:
+      - DB_ROOT_USER=flaskbp
+    ports:
+      - 127.0.0.1:5432:5432
+    tmpfs:
+      - /tmp
+      - /run
+    volumes:
+      - ~/local_postgres:/data
+      - ./local_pg_hba.conf:/data/config/pg_hba.conf
+      - ./local_postgresql.conf:/data/config/postgresql.conf
